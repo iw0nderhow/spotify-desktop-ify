@@ -1,19 +1,23 @@
 {
-  "name": "Spotify Desktop-ify",
-  "description": "Open Spotify URIs/web player links in the desktop app every time",
-  "version": "1.1.3",
+
   "manifest_version": 2,
+  "name": "Spotify Desktop-ify",
+  "version": "1.0",
+
+  "description": "Open Spotify URIs/web player links in the desktop app every time",
+
+  "icons": {
+    "16": "sd-ify-16.png",
+    "48": "sd-ify-48.png",
+    "128": "sd-ify-128.png"
+  },
   "background": {
     "scripts": ["background.js"]
   },
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "https://open.spotify.com/*"
-  ],
-  "icons": {
-    "16": "sd-ify-16.png",
-    "48": "sd-ify-48.png",
-    "128": "sd-ify-128.png"
-  }
+    "*://open.spotify.com/*"
+  ]
+
 }

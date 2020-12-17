@@ -18,13 +18,20 @@ This redirects Spotify content links to the Desktop app. [Click here](https://op
 - Strips tracking ID in the link - for better privacy
 
 Open source at https://github.com/vazbloke/spotify-desktop-ify
-
+Firefox source at https://github.com/relisher/spotify-desktop-ify
 
 #### Chrome web store
 
 - Install [here](https://chrome.google.com/webstore/detail/spotify-desktop-ify/fkfiaedcopkabchgncnaepbimnknjnah)
 
+##### Firefox web web store
+
+
+
 #### Manual installation
 
 - Download repo as [ZIP](https://github.com/vazbloke/spotify-desktop-ify/archive/master.zip) and extract somewhere permanent (it stops working if it gets deleted or moved).
 - In the extensions page (`chrome://extensions`), click `Load unpacked` on the toolbar, and point to the folder.
+
+
+Big thanks to vazbloke for creating the open source chrome version.
