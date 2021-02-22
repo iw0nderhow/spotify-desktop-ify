@@ -26,7 +26,7 @@ Firefox source at https://github.com/relisher/spotify-desktop-ify
 
 ##### Firefox web web store
 
-
+- Install [here] https://addons.mozilla.org/en-US/firefox/addon/spotify-desktop-ify/
 
 #### Manual installation
 
